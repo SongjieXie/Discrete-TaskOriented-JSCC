@@ -6,7 +6,7 @@ import torch.optim as optim
 import torch.optim.lr_scheduler as lr_scheduler
 from torchvision.utils import make_grid
 
-from model.vqvae_coding import DTJSCC_CIFAR10, DTJSCC_MNIST
+from model.DT_JSCC import DTJSCC_CIFAR10, DTJSCC_MNIST
 from model.losses import RIBLoss, VAELoss
 from datasets.dataloader import get_data
 from engine import train_one_epoch, test 

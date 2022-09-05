@@ -1,7 +1,7 @@
 import os
 import torch
 from datasets.dataloader import get_data
-from model.vqvae_coding import DTJSCC_CIFAR10, DTJSCC_MNIST
+from model.DT_JSCC import DTJSCC_CIFAR10, DTJSCC_MNIST
 from utils.modulation import QAM, PSK
 from utils.accuracy import accuracy
 
