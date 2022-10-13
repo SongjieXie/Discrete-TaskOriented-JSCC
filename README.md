@@ -1,6 +1,6 @@
 # Discrete Task-oriented Joint Source-Channel Coding (DT-JSCC)
 
-This is a [Pytorch](https://pytorch.org/docs/stable/index.html) implementation of DT-JSCC for task-oriented communication with digital modulation, as proposed in the paper "Robust Information Bottleneck for Task-Oriented Communication with Digital Modulation".
+This is a [Pytorch](https://pytorch.org/docs/stable/index.html) implementation of DT-JSCC for task-oriented communication with digital modulation, as proposed in the paper [Robust Information Bottleneck for Task-Oriented Communication with Digital Modulation](https://arxiv.org/abs/2209.10382).
 
 ## Requirements
 
@@ -41,8 +41,14 @@ The parameter `num_embeddings` is the size of trainable codebook $K$, the parame
 The parameter `name` is the trained model.
 
 ## Citation
-
-Please cite the paper if you use the code  
+```
+@article{xie2022robust,
+  title={Robust Information Bottleneck for Task-Oriented Communication with Digital Modulation},
+  author={Xie, Songjie and Wu, Youlong and Ma, Shuai and Ding, Ming and Shi, Yuanming and Tang, Mingjian},
+  journal={arXiv preprint arXiv:2209.10382},
+  year={2022}
+}
+```
 
 
 
